@@ -1,0 +1,93 @@
+var as_swf_name = '';
+
+//Initialize Facebook
+function fbInit( pAsSwfName, pApi_key, pReceiver ){
+	as_swf_name = pAsSwfName;
+	FB.init(pApi_key, pReceiver);
+}
+
+//JavaScript Connect methods
+function login(){
+	//alert('fb login');
+	FB.Connect.requireSession( onLoginHandler );
+}
+
+//JavaScript Connect logout methods
+function logout(){
+	FB.Connect.logout( onLogoutHandler );
+}
+
+//Event Handlers
+function onLoginHandler(){
+	//alert('fb logged in - calling: '+as_swf_name);
+	thisMovie(as_swf_name).onLogIn();
+}
+
+//Event Handlers
+function onLogoutHandler(){
+	// do nothing
+}
+
+// posts the score
+function shareScore ( score ) {
+		
+	var attachment = {
+		'name': 'I got a Hi Score on Beehive Bedlam!',
+		'href': 'http://games.sky.com/',
+		'caption': "{*actor*} got a Hi Score of " + score + " while playing Beehive Bedlam!.",
+		'description': "Match flowers and play through 25 fantastic levels.",
+		'media': [ { 'type': 'image', 'src': 'http://stage-games.sky.com/beehive/images/beehive_thumb.jpg', 'href': 'http://games.sky.com/' } ]
+	};
+			
+	var action_link = [{ "text": "Play Beehive Bedlam!", "href": "http://games.sky.com/"}];
+	var prompt = "Your Hi Score was " + score + ". Share this with your Facebook friends?";
+	var target_id = null;
+	
+	// open the stream publisher
+	try {
+		FB.Connect.streamPublish('', attachment, action_link, target_id, prompt, onPublishCallback );
+	} catch (error) {
+		onPublishCallback( null, 'Error in Facebook Connect JS', '' );
+	}
+}
+
+//handler for when stream is published
+function onPublishCallback ( postId, exception, messageData ) {
+	// do nothing
+}
+
+// invites friends
+function inviteFriends ( ) {
+	var dialog = new FB.UI.FBMLPopupDialog('Invite Friends', '');
+	var fbml = '<fb:fbml>\n' +
+				        '<fb:request-form\n'+
+				                            //Redirect back to this page
+				                            ' action="'+ document.location +'"\n'+
+				                            ' method="POST"\n'+
+				                            ' invite="true"\n'+
+				                            ' type="Beehive Bedlam"\n' +
+				                            ' content="The popular Sky TV game is now available to play online!'+ 
+				                            ' <fb:req-choice url=\'http://stage-games.sky.com/play-beehive-bedlam\' label=\'Play now\' />"\n'+
+				                      '>\n'+
+				                       ' <fb:multi-friend-selector\n'+
+				                            ' rows="2"\n'+
+				                            ' cols="4"\n'+
+				                            ' bypass="Cancel"\n'+
+				                            ' showborder="false"\n'+
+				                            ' actiontext="Use this form to invite your friends to connect with Beehive Bedlam."/>\n'+
+				                ' </fb:request-form>'+
+				        ' </fb:fbml>';
+
+	dialog.setFBMLContent(fbml);
+	dialog.setContentWidth(650); 
+	dialog.setContentHeight(600);
+	dialog.show();
+}
+
+function thisMovie(movieName) {
+    if (navigator.appName.indexOf("Microsoft") != -1) {
+        return window[movieName];
+    } else {
+        return document[movieName];
+    }
+}

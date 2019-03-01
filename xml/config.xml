@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- flowertypes represents flowers available for the player to shoot -->
+<!-- a specific type can be made more common to the player by it appearing multiple times -->
+
+<!-- pre-placed flowers have a type, x and y property -->
+<!-- type refers to its colour, the x and y properties represent which tile the flower is placed on -->
+<levels>
+	
+	<leaderboard url="beehive/scripts/leaderboard.php" />
+	<postscore url="beehive/scripts/postscore.php" />
+	<sendtofriends url="beehive/scripts/sendtofriend.php" />
+	<naughtywords url="beehive/xml/naughtywords.xml" />
+	
+	<level name="Level 1" speed="3">
+		<flowertypes>
+			<type weight="2">blue</type>
+			<type weight="2">green</type>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blue" x="0" y="1" />
+			<flower type="blue" x="1" y="0" />
+			
+			<flower type="green" x="2" y="0" />
+			<flower type="green" x="2" y="1" />
+			
+			<flower type="yellow" x="3" y="1" />
+			<flower type="yellow" x="4" y="0" />
+			
+			<flower type="purple" x="5" y="0" />
+			<flower type="purple" x="5" y="1" />
+			
+			<flower type="red" x="6" y="1" />
+			<flower type="red" x="7" y="0" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 2" speed="3">
+		<flowertypes>
+			<type weight="2">red</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="red" x="1" y="0" />
+			<flower type="blue" x="3" y="0" />
+			<flower type="red" x="5" y="0" />
+			<flower type="blue" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="blue" x="1" y="1" />
+			<flower type="red" x="2" y="1" />
+			<flower type="red" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="blue" x="5" y="1" />
+			<flower type="red" x="6" y="1" />
+			<flower type="red" x="7" y="1" />
+			
+			<flower type="red" x="1" y="2" />
+			<flower type="blue" x="3" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="blue" x="7" y="2" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 3" speed="3">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="purple" x="0" y="0" />
+			<flower type="purple" x="1" y="0" />
+			<flower type="yellow" x="2" y="0" />
+			<flower type="blue" x="3" y="0" />
+			<flower type="blue" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="purple" x="6" y="0" />
+			<flower type="purple" x="7" y="0" />
+			
+			<flower type="yellow" x="0" y="1" />
+			<flower type="green" x="1" y="1" />
+			<flower type="green" x="2" y="1" />
+			<flower type="yellow" x="3" y="1" />
+			<flower type="green" x="4" y="1" />
+			<flower type="green" x="5" y="1" />
+			<flower type="yellow" x="6" y="1" />
+			
+			<flower type="blue" x="1" y="2" />
+			<flower type="blue" x="2" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="purple" x="4" y="2" />
+			<flower type="blue" x="5" y="2" />
+			<flower type="blue" x="6" y="2" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 4" speed="3">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="0" y="0" />
+			<flower type="yellow" x="7" y="0" />
+			
+			<flower type="purple" x="0" y="1" />
+			<flower type="green" x="1" y="1" />
+			<flower type="purple" x="2" y="1" />
+			<flower type="green" x="3" y="1" />
+			<flower type="purple" x="4" y="1" />
+			<flower type="green" x="5" y="1" />
+			<flower type="purple" x="6" y="1" />
+			<flower type="green" x="7" y="1" />
+			
+			<flower type="yellow" x="0" y="2" />
+			<flower type="yellow" x="7" y="2" />
+			
+			<flower type="green" x="0" y="3" />
+			<flower type="purple" x="1" y="3" />
+			<flower type="green" x="2" y="3" />
+			<flower type="purple" x="3" y="3" />
+			<flower type="green" x="4" y="3" />
+			<flower type="purple" x="5" y="3" />
+			<flower type="green" x="6" y="3" />
+			<flower type="purple" x="7" y="3" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 5" speed="3">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="green" x="0" y="0" />
+			<flower type="purple" x="1" y="0" />
+			<flower type="blue" x="2" y="0" />
+			<flower type="green" x="3" y="0" />
+			<flower type="blue" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="blue" x="6" y="0" />
+			<flower type="green" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="yellow" x="1" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="yellow" x="3" y="1" />
+			<flower type="green" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="yellow" x="6" y="1" />
+			<flower type="blue" x="7" y="1" />
+			
+			<flower type="yellow" x="0" y="2" />
+			<flower type="purple" x="1" y="2" />
+			<flower type="green" x="2" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="blue" x="4" y="2" />
+			<flower type="yellow" x="5" y="2" />
+			<flower type="green" x="6" y="2" />
+			<flower type="yellow" x="7" y="2" />
+			
+			<flower type="blue" x="0" y="3" />
+			<flower type="yellow" x="1" y="3" />
+			<flower type="purple" x="2" y="3" />
+			<flower type="green" x="3" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="blue" x="5" y="3" />
+			<flower type="purple" x="6" y="3" />
+			<flower type="green" x="7" y="3" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 6" speed="5">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">blue</type>
+			<type weight="2">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="1" y="0" />
+			<flower type="purple" x="3" y="0" />
+			<flower type="red" x="5" y="0" />
+			<flower type="blue" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="red" x="3" y="1" />
+			<flower type="purple" x="4" y="1" />
+			<flower type="yellow" x="7" y="1" />
+			
+			<flower type="yellow" x="1" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="yellow" x="7" y="2" />
+			
+			<flower type="blue" x="0" y="3" />
+			<flower type="red" x="3" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="green" x="7" y="3" />
+			
+			<flower type="blue" x="1" y="4" />
+			<flower type="purple" x="3" y="4" />
+			<flower type="red" x="5" y="4" />
+			<flower type="yellow" x="7" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 7" speed="5">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">blue</type>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="red" x="1" y="0" />
+			<flower type="blue" x="2" y="0" />
+			<flower type="green" x="3" y="0" />
+			<flower type="green" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="red" x="6" y="0" />
+			
+			<flower type="red" x="0" y="1" />
+			<flower type="purple" x="1" y="1" />
+			<flower type="yellow" x="2" y="1" />
+			<flower type="green" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="red" x="6" y="1" />
+			
+			<flower type="purple" x="1" y="2" />
+			<flower type="red" x="2" y="2" />
+			<flower type="blue" x="3" y="2" />
+			<flower type="yellow" x="4" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="purple" x="6" y="2" />
+			
+			<flower type="red" x="1" y="3" />
+			<flower type="purple" x="2" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="red" x="5" y="3" />
+			
+			<flower type="purple" x="2" y="4" />
+			<flower type="purple" x="5" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 8" speed="5">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">blue</type>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="green" x="0" y="0" />
+			<flower type="red" x="1" y="0" />
+			<flower type="yellow" x="3" y="0" />
+			<flower type="yellow" x="4" y="0" />
+			<flower type="red" x="6" y="0" />
+			<flower type="green" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="red" x="2" y="1" />
+			<flower type="blue" x="3" y="1" />
+			<flower type="red" x="4" y="1" />
+			<flower type="blue" x="6" y="1" />
+			
+			<flower type="green" x="0" y="2" />
+			<flower type="red" x="1" y="2" />
+			<flower type="yellow" x="3" y="2" />
+			<flower type="yellow" x="4" y="2" />
+			<flower type="red" x="6" y="2" />
+			<flower type="green" x="7" y="2" />
+			
+			<flower type="blue" x="0" y="3" />
+			<flower type="red" x="3" y="3" />
+			<flower type="blue" x="6" y="3" />
+			
+			<flower type="green" x="0" y="4" />
+			<flower type="yellow" x="1" y="4" />
+			<flower type="yellow" x="3" y="4" />
+			<flower type="yellow" x="4" y="4" />
+			<flower type="yellow" x="6" y="4" />
+			<flower type="green" x="7" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 9" speed="5">
+		<flowertypes>
+			<type weight="2">purple</type>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="green" x="0" y="0" />
+			<flower type="red" x="1" y="0" />
+			<flower type="purple" x="2" y="0" />
+			<flower type="green" x="3" y="0" />
+			<flower type="red" x="4" y="0" />
+			<flower type="green" x="5" y="0" />
+			<flower type="red" x="6" y="0" />
+			<flower type="purple" x="7" y="0" />
+			
+			<flower type="red" x="0" y="1" />
+			<flower type="green" x="1" y="1" />
+			<flower type="red" x="2" y="1" />
+			<flower type="purple" x="3" y="1" />
+			<flower type="red" x="4" y="1" />
+			<flower type="green" x="6" y="1" />
+			<flower type="purple" x="7" y="1" />
+			
+			<flower type="green" x="0" y="2" />
+			<flower type="purple" x="1" y="2" />
+			<flower type="red" x="2" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="green" x="7" y="2" />
+			
+			<flower type="red" x="0" y="3" />
+			<flower type="green" x="1" y="3" />
+			<flower type="green" x="2" y="3" />
+			<flower type="red" x="6" y="3" />
+			<flower type="red" x="7" y="3" />
+			
+			<flower type="red" x="0" y="4" />
+			<flower type="green" x="1" y="4" />
+			<flower type="purple" x="2" y="4" />
+			<flower type="green" x="7" y="4" />
+			
+			<flower type="purple" x="0" y="5" />
+			<flower type="red" x="1" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 10" speed="5">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">blue</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="0" y="0" />
+			<flower type="green" x="2" y="0" />
+			<flower type="blue" x="4" y="0" />
+			<flower type="green" x="6" y="0" />
+			
+			<flower type="yellow" x="0" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="yellow" x="4" y="1" />
+			<flower type="green" x="6" y="1" />
+			
+			<flower type="green" x="1" y="2" />
+			<flower type="green" x="3" y="2" />
+			<flower type="blue" x="5" y="2" />
+			<flower type="yellow" x="7" y="2" />
+			
+			<flower type="yellow" x="1" y="3" />
+			<flower type="yellow" x="3" y="3" />
+			<flower type="green" x="5" y="3" />
+			
+			<flower type="blue" x="2" y="4" />
+			<flower type="blue" x="4" y="4" />
+			
+			<flower type="green" x="2" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 11" speed="5">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="2">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="purple" x="0" y="0" />
+			<flower type="yellow" x="1" y="0" />
+			<flower type="yellow" x="2" y="0" />
+			<flower type="red" x="3" y="0" />
+			<flower type="red" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="yellow" x="6" y="0" />
+			<flower type="purple" x="7" y="0" />
+			
+			<flower type="purple" x="0" y="1" />
+			<flower type="purple" x="1" y="1" />
+			<flower type="green" x="2" y="1" />
+			<flower type="red" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="purple" x="6" y="1" />
+			<flower type="yellow" x="7" y="1" />
+			
+			<flower type="purple" x="0" y="2" />
+			<flower type="yellow" x="1" y="2" />
+			<flower type="green" x="2" y="2" />
+			<flower type="green" x="5" y="2" />
+			<flower type="yellow" x="6" y="2" />
+			<flower type="purple" x="7" y="2" />
+			
+			<flower type="yellow" x="0" y="3" />
+			<flower type="red" x="1" y="3" />
+			<flower type="red" x="5" y="3" />
+			<flower type="yellow" x="6" y="3" />
+			<flower type="yellow" x="7" y="3" />
+			
+			<flower type="yellow" x="0" y="4" />
+			<flower type="red" x="1" y="4" />
+			<flower type="green" x="6" y="4" />
+			<flower type="yellow" x="7" y="4" />
+			
+			<flower type="green" x="0" y="5" />
+			<flower type="green" x="6" y="5" />
+			<flower type="yellow" x="7" y="5" />
+			
+			<flower type="red" x="0" y="6" />
+			<flower type="red" x="7" y="6" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 12" speed="5">
+		<flowertypes>
+			<type weight="2">blue</type>
+			<type weight="2">purple</type>
+			<type weight="2">yellow</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blue" x="1" y="0" />
+			<flower type="yellow" x="2" y="0" />
+			<flower type="purple" x="3" y="0" />
+			<flower type="blue" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="purple" x="6" y="0" />
+			
+			<flower type="purple" x="1" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="yellow" x="3" y="1" />
+			<flower type="purple" x="4" y="1" />
+			<flower type="blue" x="5" y="1" />
+			
+			<flower type="blue" x="1" y="2" />
+			<flower type="yellow" x="2" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="blue" x="4" y="2" />
+			<flower type="yellow" x="5" y="2" />
+			<flower type="purple" x="6" y="2" />
+			
+			<flower type="purple" x="1" y="3" />
+			<flower type="blue" x="2" y="3" />
+			<flower type="yellow" x="3" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="blue" x="5" y="3" />
+			
+			<flower type="blue" x="1" y="4" />
+			<flower type="yellow" x="2" y="4" />
+			<flower type="purple" x="3" y="4" />
+			<flower type="blue" x="4" y="4" />
+			<flower type="yellow" x="5" y="4" />
+			<flower type="purple" x="6" y="4" />
+			
+			<flower type="purple" x="1" y="5" />
+			<flower type="blue" x="2" y="5" />
+			<flower type="yellow" x="3" y="5" />
+			<flower type="purple" x="4" y="5" />
+			<flower type="blue" x="5" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 13" speed="6">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="1" y="0" />
+			<flower type="yellow" x="6" y="0" />
+			
+			<flower type="green" x="0" y="1" />
+			<flower type="green" x="1" y="1" />
+			<flower type="green" x="5" y="1" />
+			<flower type="green" x="6" y="1" />
+			
+			<flower type="blocker" x="1" y="2" />
+			<flower type="yellow" x="2" y="2" />
+			<flower type="blocker" x="3" y="2" />
+			<flower type="blocker" x="4" y="2" />
+			<flower type="yellow" x="5" y="2" />
+			<flower type="blocker" x="6" y="2" />
+			
+			<flower type="purple" x="0" y="3" />
+			<flower type="purple" x="1" y="3" />
+			<flower type="yellow" x="3" y="3" />
+			<flower type="purple" x="5" y="3" />
+			<flower type="purple" x="6" y="3" />
+			
+			<flower type="yellow" x="1" y="4" />
+			<flower type="blocker" x="3" y="4" />
+			<flower type="blocker" x="4" y="4" />
+			<flower type="yellow" x="6" y="4" />
+			
+			<flower type="green" x="0" y="5" />
+			<flower type="green" x="1" y="5" />
+			<flower type="yellow" x="2" y="5" />
+			<flower type="yellow" x="4" y="5" />
+			<flower type="green" x="5" y="5" />
+			<flower type="green" x="6" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 14" speed="6">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="1" y="0" />
+			<flower type="red" x="3" y="0" />
+			<flower type="purple" x="5" y="0" />
+			<flower type="red" x="7" y="0" />
+			
+			<flower type="red" x="0" y="1" />
+			<flower type="yellow" x="2" y="1" />
+			<flower type="red" x="4" y="1" />
+			<flower type="purple" x="6" y="1" />
+			
+			<flower type="purple" x="1" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="yellow" x="5" y="2" />
+			<flower type="yellow" x="7" y="2" />
+			
+			<flower type="yellow" x="0" y="3" />
+			<flower type="red" x="2" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="red" x="6" y="3" />
+			
+			<flower type="red" x="1" y="4" />
+			<flower type="yellow" x="3" y="4" />
+			<flower type="red" x="5" y="4" />
+			<flower type="purple" x="7" y="4" />
+			
+			<flower type="purple" x="0" y="5" />
+			<flower type="purple" x="2" y="5" />
+			<flower type="yellow" x="4" y="5" />
+			<flower type="yellow" x="6" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 15" speed="6">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="0" y="0" />
+			<flower type="purple" x="1" y="0" />
+			<flower type="blue" x="2" y="0" />
+			<flower type="blocker" x="3" y="0" />
+			<flower type="purple" x="4" y="0" />
+			<flower type="blue" x="5" y="0" />
+			<flower type="yellow" x="6" y="0" />
+			<flower type="purple" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="yellow" x="1" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="yellow" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="yellow" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			<flower type="yellow" x="7" y="1" />
+			
+			<flower type="yellow" x="0" y="2" />
+			<flower type="blocker" x="1" y="2" />
+			<flower type="blue" x="2" y="2" />
+			<flower type="blocker" x="3" y="2" />
+			<flower type="purple" x="4" y="2" />
+			<flower type="purple" x="5" y="2" />
+			<flower type="blue" x="6" y="2" />
+			<flower type="purple" x="7" y="2" />
+			
+			<flower type="blue" x="0" y="3" />
+			<flower type="purple" x="1" y="3" />
+			<flower type="yellow" x="2" y="3" />
+			<flower type="blue" x="3" y="3" />
+			<flower type="yellow" x="4" y="3" />
+			<flower type="yellow" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="blue" x="7" y="3" />
+			
+			<flower type="purple" x="0" y="4" />
+			<flower type="blocker" x="1" y="4" />
+			<flower type="blue" x="2" y="4" />
+			<flower type="blocker" x="3" y="4" />
+			<flower type="purple" x="4" y="4" />
+			<flower type="blue" x="5" y="4" />
+			<flower type="purple" x="6" y="4" />
+			<flower type="purple" x="7" y="4" />
+			
+			<flower type="yellow" x="0" y="5" />
+			<flower type="blue" x="1" y="5" />
+			<flower type="purple" x="2" y="5" />
+			<flower type="yellow" x="3" y="5" />
+			<flower type="blue" x="4" y="5" />
+			<flower type="yellow" x="5" y="5" />
+			<flower type="blue" x="6" y="5" />
+			<flower type="yellow" x="7" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 16" speed="6">
+		<flowertypes>
+			<type weight="2">red</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blue" x="3" y="0" />
+			<flower type="red" x="5" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="blue" x="0" y="1" />
+			<flower type="blue" x="1" y="1" />
+			<flower type="red" x="2" y="1" />
+			<flower type="blocker" x="3" y="1" />
+			<flower type="blocker" x="4" y="1" />
+			<flower type="blue" x="5" y="1" />
+			<flower type="red" x="6" y="1" />
+			<flower type="red" x="7" y="1" />
+			
+			<flower type="red" x="1" y="2" />
+			<flower type="blue" x="3" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="blue" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="blocker" x="2" y="3" />
+			<flower type="blocker" x="3" y="3" />
+			<flower type="blocker" x="4" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="blocker" x="7" y="3" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 17" speed="6">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="0" y="0" />
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blocker" x="2" y="0" />
+			<flower type="purple" x="3" y="0" />
+			<flower type="purple" x="4" y="0" />
+			<flower type="blocker" x="5" y="0" />
+			<flower type="blocker" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="blocker" x="0" y="1" />
+			<flower type="blocker" x="1" y="1" />
+			<flower type="blocker" x="2" y="1" />
+			<flower type="blocker" x="3" y="1" />
+			<flower type="blocker" x="4" y="1" />
+			<flower type="blocker" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			<flower type="blocker" x="7" y="1" />
+			
+			<flower type="green" x="0" y="2" />
+			<flower type="green" x="1" y="2" />
+			<flower type="blocker" x="2" y="2" />
+			<flower type="yellow" x="3" y="2" />
+			<flower type="yellow" x="4" y="2" />
+			<flower type="blocker" x="5" y="2" />
+			<flower type="purple" x="6" y="2" />
+			<flower type="purple" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="blocker" x="2" y="3" />
+			<flower type="blocker" x="3" y="3" />
+			<flower type="blocker" x="4" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="blocker" x="7" y="3" />
+			
+			<flower type="purple" x="0" y="4" />
+			<flower type="purple" x="1" y="4" />
+			<flower type="blocker" x="2" y="4" />
+			<flower type="green" x="3" y="4" />
+			<flower type="green" x="4" y="4" />
+			<flower type="blocker" x="5" y="4" />
+			<flower type="yellow" x="6" y="4" />
+			<flower type="yellow" x="7" y="4" />
+			
+			<flower type="blocker" x="0" y="5" />
+			<flower type="blocker" x="1" y="5" />
+			<flower type="blocker" x="2" y="5" />
+			<flower type="blocker" x="3" y="5" />
+			<flower type="blocker" x="4" y="5" />
+			<flower type="blocker" x="5" y="5" />
+			<flower type="blocker" x="6" y="5" />
+			<flower type="blocker" x="7" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 18" speed="6">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">green</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="0" y="0" />
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blocker" x="2" y="0" />
+			<flower type="blocker" x="3" y="0" />
+			<flower type="blocker" x="4" y="0" />
+			<flower type="blocker" x="5" y="0" />
+			<flower type="blocker" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="green" x="0" y="1" />
+			<flower type="blocker" x="1" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="green" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			<flower type="green" x="7" y="1" />
+			
+			<flower type="blue" x="0" y="2" />
+			<flower type="yellow" x="1" y="2" />
+			<flower type="blue" x="2" y="2" />
+			<flower type="blocker" x="3" y="2" />
+			<flower type="blocker" x="4" y="2" />
+			<flower type="purple" x="5" y="2" />
+			<flower type="yellow" x="6" y="2" />
+			<flower type="blue" x="7" y="2" />
+			
+			<flower type="purple" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="green" x="2" y="3" />
+			<flower type="purple" x="3" y="3" />
+			<flower type="blue" x="4" y="3" />
+			<flower type="yellow" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="yellow" x="7" y="3" />
+			
+			<flower type="blocker" x="0" y="4" />
+			<flower type="yellow" x="1" y="4" />
+			<flower type="blocker" x="2" y="4" />
+			<flower type="green" x="3" y="4" />
+			<flower type="purple" x="4" y="4" />
+			<flower type="blocker" x="5" y="4" />
+			<flower type="purple" x="6" y="4" />
+			<flower type="blocker" x="7" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 19" speed="6">
+		<flowertypes>
+			<type weight="3">yellow</type>
+			<type weight="3">purple</type>
+			<type weight="3">green</type>
+			<type weight="3">blue</type>
+			<type weight="3">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="yellow" x="0" y="0" />
+			<flower type="blocker" x="1" y="0" />
+			<flower type="purple" x="2" y="0" />
+			<flower type="blocker" x="3" y="0" />
+			<flower type="green" x="4" y="0" />
+			<flower type="blocker" x="5" y="0" />
+			<flower type="blue" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="blocker" x="0" y="1" />
+			<flower type="red" x="1" y="1" />
+			<flower type="blocker" x="2" y="1" />
+			<flower type="blue" x="3" y="1" />
+			<flower type="blocker" x="4" y="1" />
+			<flower type="green" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			<flower type="purple" x="7" y="1" />
+			
+			<flower type="yellow" x="0" y="2" />
+			<flower type="blocker" x="1" y="2" />
+			<flower type="purple" x="2" y="2" />
+			<flower type="blocker" x="3" y="2" />
+			<flower type="green" x="4" y="2" />
+			<flower type="blocker" x="5" y="2" />
+			<flower type="blue" x="6" y="2" />
+			<flower type="blocker" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="red" x="1" y="3" />
+			<flower type="blocker" x="2" y="3" />
+			<flower type="blue" x="3" y="3" />
+			<flower type="blocker" x="4" y="3" />
+			<flower type="green" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="purple" x="7" y="3" />
+			
+			<flower type="yellow" x="0" y="4" />
+			<flower type="blocker" x="1" y="4" />
+			<flower type="purple" x="2" y="4" />
+			<flower type="blocker" x="3" y="4" />
+			<flower type="green" x="4" y="4" />
+			<flower type="blocker" x="5" y="4" />
+			<flower type="blue" x="6" y="4" />
+			<flower type="blocker" x="7" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 20" speed="7">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="3">blue</type>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="0" y="0" />
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blocker" x="2" y="0" />
+			<flower type="blocker" x="3" y="0" />
+			<flower type="blocker" x="4" y="0" />
+			<flower type="blocker" x="5" y="0" />
+			<flower type="blocker" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="red" x="0" y="1" />
+			<flower type="green" x="1" y="1" />
+			<flower type="blue" x="2" y="1" />
+			<flower type="red" x="3" y="1" />
+			<flower type="green" x="4" y="1" />
+			<flower type="blue" x="5" y="1" />
+			<flower type="red" x="6" y="1" />
+			<flower type="green" x="7" y="1" />
+			
+			<flower type="blue" x="0" y="2" />
+			<flower type="green" x="1" y="2" />
+			<flower type="red" x="2" y="2" />
+			<flower type="blue" x="3" y="2" />
+			<flower type="green" x="4" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="blue" x="6" y="2" />
+			<flower type="green" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="blocker" x="2" y="3" />
+			<flower type="blocker" x="3" y="3" />
+			<flower type="blocker" x="4" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="blocker" x="7" y="3" />
+		</flowers>
+	</level>
+	
+	<level name="Level 21" speed="7">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">blue</type>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blue" x="2" y="0" />
+			<flower type="green" x="3" y="0" />
+			<flower type="green" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="blocker" x="6" y="0" />
+			
+			<flower type="blocker" x="0" y="1" />
+			<flower type="purple" x="1" y="1" />
+			<flower type="yellow" x="2" y="1" />
+			<flower type="green" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			
+			<flower type="blocker" x="1" y="2" />
+			<flower type="red" x="2" y="2" />
+			<flower type="blue" x="3" y="2" />
+			<flower type="yellow" x="4" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="blocker" x="6" y="2" />
+			
+			<flower type="blocker" x="1" y="3" />
+			<flower type="purple" x="2" y="3" />
+			<flower type="purple" x="4" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			
+			<flower type="blocker" x="2" y="4" />
+			<flower type="blocker" x="5" y="4" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 22" speed="7">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">red</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="purple" x="0" y="0" />
+			<flower type="yellow" x="1" y="0" />
+			<flower type="yellow" x="2" y="0" />
+			<flower type="red" x="3" y="0" />
+			<flower type="red" x="4" y="0" />
+			<flower type="yellow" x="5" y="0" />
+			<flower type="yellow" x="6" y="0" />
+			<flower type="purple" x="7" y="0" />
+			
+			<flower type="purple" x="0" y="1" />
+			<flower type="purple" x="1" y="1" />
+			<flower type="blocker" x="2" y="1" />
+			<flower type="blocker" x="4" y="1" />
+			<flower type="purple" x="5" y="1" />
+			<flower type="purple" x="6" y="1" />
+			<flower type="yellow" x="7" y="1" />
+			
+			<flower type="purple" x="0" y="2" />
+			<flower type="yellow" x="1" y="2" />
+			<flower type="blocker" x="2" y="2" />
+			<flower type="blocker" x="5" y="2" />
+			<flower type="yellow" x="6" y="2" />
+			<flower type="purple" x="7" y="2" />
+			
+			<flower type="yellow" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			<flower type="yellow" x="6" y="3" />
+			<flower type="yellow" x="7" y="3" />
+			
+			<flower type="yellow" x="0" y="4" />
+			<flower type="blocker" x="1" y="4" />
+			<flower type="blocker" x="6" y="4" />
+			<flower type="yellow" x="7" y="4" />
+			
+			<flower type="blocker" x="0" y="5" />
+			<flower type="blocker" x="6" y="5" />
+			<flower type="yellow" x="7" y="5" />
+			
+			<flower type="blocker" x="0" y="6" />
+			<flower type="blocker" x="7" y="6" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 23" speed="7">
+		<flowertypes>
+			<type weight="2">yellow</type>
+			<type weight="2">purple</type>
+			<type weight="2">red</type>
+			<type weight="2">blue</type>
+			<type weight="2">green</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="0" y="0" />
+			<flower type="red" x="1" y="0" />
+			<flower type="blue" x="2" y="0" />
+			<flower type="yellow" x="3" y="0" />
+			<flower type="green" x="4" y="0" />
+			<flower type="purple" x="5" y="0" />
+			<flower type="red" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="blocker" x="0" y="1" />
+			<flower type="purple" x="1" y="1" />
+			<flower type="green" x="2" y="1" />
+			<flower type="red" x="3" y="1" />
+			<flower type="blue" x="4" y="1" />
+			<flower type="yellow" x="5" y="1" />
+			<flower type="green" x="6" y="1" />
+			<flower type="blocker" x="7" y="1" />
+			
+			<flower type="blocker" x="0" y="2" />
+			<flower type="yellow" x="1" y="2" />
+			<flower type="blue" x="2" y="2" />
+			<flower type="purple" x="3" y="2" />
+			<flower type="green" x="4" y="2" />
+			<flower type="red" x="5" y="2" />
+			<flower type="blue" x="6" y="2" />
+			<flower type="blocker" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="red" x="1" y="3" />
+			<flower type="blue" x="2" y="3" />
+			<flower type="yellow" x="3" y="3" />
+			<flower type="green" x="4" y="3" />
+			<flower type="purple" x="5" y="3" />
+			<flower type="red" x="6" y="3" />
+			<flower type="blocker" x="7" y="3" />
+			
+			<flower type="blocker" x="0" y="4" />
+			<flower type="purple" x="1" y="4" />
+			<flower type="green" x="2" y="4" />
+			<flower type="red" x="3" y="4" />
+			<flower type="blue" x="4" y="4" />
+			<flower type="yellow" x="5" y="4" />
+			<flower type="green" x="6" y="4" />
+			<flower type="blocker" x="7" y="4" />
+			
+			<flower type="blocker" x="0" y="5" />
+			<flower type="yellow" x="1" y="5" />
+			<flower type="blue" x="2" y="5" />
+			<flower type="purple" x="3" y="5" />
+			<flower type="green" x="4" y="5" />
+			<flower type="red" x="5" y="5" />
+			<flower type="blue" x="6" y="5" />
+			<flower type="blocker" x="7" y="5" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 24" speed="7">
+		<flowertypes>
+			<type weight="2">red</type>
+			<type weight="2">blue</type>
+			<type weight="2">green</type>
+			<type weight="2">yellow</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="red" x="3" y="0" />
+			<flower type="blue" x="4" y="0" />
+			
+			<flower type="green" x="3" y="1" />
+			<flower type="yellow" x="4" y="1" />
+			
+			<flower type="red" x="3" y="2" />
+			<flower type="blue" x="4" y="2" />
+			
+			<flower type="green" x="3" y="3" />
+			<flower type="yellow" x="4" y="3" />
+			
+			<flower type="red" x="3" y="4" />
+			<flower type="blue" x="4" y="4" />
+			
+			<flower type="green" x="3" y="5" />
+			<flower type="yellow" x="4" y="5" />
+			
+			<flower type="red" x="3" y="6" />
+			<flower type="blue" x="4" y="6" />
+			
+			<flower type="green" x="3" y="7" />
+			<flower type="yellow" x="4" y="7" />
+			
+			<flower type="red" x="3" y="8" />
+			<flower type="blue" x="4" y="8" />
+			
+			<flower type="green" x="3" y="9" />
+			<flower type="yellow" x="4" y="9" />
+		</flowers>
+	</level>
+	
+	
+	<level name="Level 25" speed="7">
+		<flowertypes>
+			<type weight="2">red</type>
+			<type weight="2">green</type>
+			<type weight="2">blue</type>
+			<type weight="1">bomb</type>
+		</flowertypes>
+		<flowers>
+			<flower type="blocker" x="0" y="0" />
+			<flower type="blocker" x="1" y="0" />
+			<flower type="blocker" x="2" y="0" />
+			<flower type="blocker" x="3" y="0" />
+			<flower type="blocker" x="4" y="0" />
+			<flower type="blocker" x="5" y="0" />
+			<flower type="blocker" x="6" y="0" />
+			<flower type="blocker" x="7" y="0" />
+			
+			<flower type="blocker" x="0" y="1" />
+			<flower type="blocker" x="1" y="1" />
+			<flower type="blocker" x="2" y="1" />
+			<flower type="blocker" x="3" y="1" />
+			<flower type="blocker" x="4" y="1" />
+			<flower type="blocker" x="5" y="1" />
+			<flower type="blocker" x="6" y="1" />
+			<flower type="blocker" x="7" y="1" />
+			
+			<flower type="blocker" x="0" y="2" />
+			<flower type="blocker" x="1" y="2" />
+			<flower type="blocker" x="2" y="2" />
+			<flower type="blocker" x="3" y="2" />
+			<flower type="blocker" x="4" y="2" />
+			<flower type="blocker" x="5" y="2" />
+			<flower type="blocker" x="6" y="2" />
+			<flower type="blocker" x="7" y="2" />
+			
+			<flower type="blocker" x="0" y="3" />
+			<flower type="blocker" x="1" y="3" />
+			<flower type="blocker" x="2" y="3" />
+			<flower type="blocker" x="3" y="3" />
+			<flower type="blocker" x="4" y="3" />
+			<flower type="blocker" x="5" y="3" />
+			<flower type="blocker" x="6" y="3" />
+			<flower type="blocker" x="7" y="3" />
+			
+			<flower type="red" x="0" y="4" />
+			<flower type="green" x="1" y="4" />
+			<flower type="blue" x="2" y="4" />
+			<flower type="red" x="3" y="4" />
+			<flower type="green" x="4" y="4" />
+			<flower type="blue" x="5" y="4" />
+			<flower type="red" x="6" y="4" />
+			<flower type="green" x="7" y="4" />
+			
+			<flower type="blue" x="0" y="5" />
+			<flower type="green" x="1" y="5" />
+			<flower type="red" x="2" y="5" />
+			<flower type="blue" x="3" y="5" />
+			<flower type="green" x="4" y="5" />
+			<flower type="red" x="5" y="5" />
+			<flower type="blue" x="6" y="5" />
+			<flower type="green" x="7" y="5" />
+			
+			<flower type="blocker" x="0" y="6" />
+			<flower type="blocker" x="1" y="6" />
+			<flower type="blocker" x="2" y="6" />
+			<flower type="blocker" x="3" y="6" />
+			<flower type="blocker" x="4" y="6" />
+			<flower type="blocker" x="5" y="6" />
+			<flower type="blocker" x="6" y="6" />
+			<flower type="blocker" x="7" y="6" />
+		</flowers>
+	</level>
+	
+</levels>

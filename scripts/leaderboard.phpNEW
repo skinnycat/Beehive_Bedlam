@@ -1,0 +1,34 @@
+<?php 
+
+/**
+ * This PHP script needs to access the server database and return the data formatted as XML.
+ * For now is just writes to a debug text file.
+ */
+
+// send xml content type header
+header ("content-type: text/xml");
+
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+echo '<leaderboard>';
+
+// -------------- Database retrieval code to go here -----------------------
+
+$fp = fopen("postscore.log.txt", "r");
+while( !feof( $fp ) ) {
+	$line = fgets( $fp );
+	if( $line != "" ) {
+		
+		$items = explode( ",", $line );
+		echo '<entry>';
+		echo '<username>' . $items[0] . '</username>';
+		echo '<score>' . $items[4] . '</score>';
+		echo '</entry>';
+	}
+}
+fclose( $fp );
+
+// end database retrieval code
+
+echo '</leaderboard>';
+
+?>
