@@ -197,7 +197,9 @@
 		</flowertypes>
 		<flowers>
 			<flower type="yellow" x="1" y="0" />
+            <flower type="yellow" x="2" y="0" />
 			<flower type="purple" x="3" y="0" />
+            <flower type="purple" x="4" y="0" />
 			<flower type="red" x="5" y="0" />
 			<flower type="blue" x="7" y="0" />
 			
